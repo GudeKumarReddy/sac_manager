@@ -9,8 +9,6 @@ Follow these steps to set up and run the project:
 
 ### 1. SetUp Virtual Environment and Clone the Project
 
-
-# Setup Virtual Environment
 ```bash
 #Create virtual environment
 virtualenv sacvenv
@@ -18,13 +16,21 @@ virtualenv sacvenv
 #Activate virtualenv
 source sacvenv/bin/activate
 
-Clone the repository from GitHub:
 
-
+#Clone the repository from GitHub:
 git clone https://github.com/GudeKumarReddy/sac_manager.git
+
 
 #install dependencies
 pip install -r requirements.txt
+
+
+#Install the package locally:
+pip install .
+
+#Run Tests with Coverage Report in HTML
+pytest --cov=config_reader --cov-report=html
+
 ```bash
 
 
