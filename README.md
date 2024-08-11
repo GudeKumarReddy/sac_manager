@@ -7,10 +7,22 @@ A Python module for reading configuration files in `.yaml`, `.cfg`, and `.conf` 
 
 Follow these steps to set up and run the project:
 
-### 1. Clone the Project
+### 1. SetUp Virtual Environment and Clone the Project
+
+
+## Setup Virtual Environment
+```bash
+#Create virtual environment
+virtualenv sacvenv
+
+#Activate virtualenv
+source sacvenv/bin/activate
 
 Clone the repository from GitHub:
 
 ```bash
 git clone https://github.com/GudeKumarReddy/sac_manager.git
-cd sac_manager
+
+#install dependencies
+pip install -r requirements.txt
+
