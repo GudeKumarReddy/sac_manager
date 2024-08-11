@@ -3,11 +3,11 @@
 A Python module for reading configuration files in `.yaml`, `.cfg`, and `.conf` formats. It converts configuration data into a flat dictionary, writes the data to `.env` and `.json` files, and sets environment variables.
 
 
-## Installation
+### Installation
 
 Follow these steps to set up and run the project:
 
-### 1. SetUp Virtual Environment and Clone the Project
+## SetUp Virtual Environment and Clone the Project
 
 ```bash
 #Create virtual environment
@@ -28,9 +28,11 @@ pip install -r requirements.txt
 #Install the package locally:
 pip install .
 
-#Run Tests with Coverage Report in HTML
+## Run Tests with Coverage Report in HTML
 pytest --cov=config_reader --cov-report=html
 
-```bash
+Open htmlcov/index.html in a web browser.
+
+This process will give you a detailed HTML report with coverage statistics, including which lines of code are covered and which are not.
 
 
