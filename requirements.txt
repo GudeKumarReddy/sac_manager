@@ -1,0 +1,10 @@
+config-reader @ file:///home/kumar/myprojects/sacumenvenv/sac_manager
+coverage==7.6.1
+exceptiongroup==1.2.2
+iniconfig==2.0.0
+packaging==24.1
+pluggy==1.5.0
+pytest==8.3.2
+pytest-cov==5.0.0
+PyYAML==6.0.2
+tomli==2.0.1
