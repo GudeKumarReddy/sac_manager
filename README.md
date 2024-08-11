@@ -34,12 +34,11 @@ pytest --cov=config_reader --cov-report=html
 Open htmlcov/index.html in a web browser.
 
 This process will give you a detailed HTML report with coverage statistics, including which lines of code are covered and which are not.
-
+```
 
 
 ## Module Overview
-
-### `ConfigReader` Class
+```bash
 
 The `ConfigReader` class provides functionality for managing configuration files. It supports various formats and offers methods to handle configurations effectively.
 
@@ -67,9 +66,10 @@ The `ConfigReader` class provides functionality for managing configuration files
 
 7. **Set Environment Variables**:
    - Converts all values in the dictionary to strings and sets them as environment variables using `os.environ`.
+````
 
 ### Unit Tests
-
+```bash
 The module includes unit tests to ensure its functionality:
 
 1. **Fixtures**:
